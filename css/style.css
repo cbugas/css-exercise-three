@@ -29,10 +29,9 @@ nav {
   width: 40%;
 }
 
-a:hover { color:#0070BC; } /* mouse over */
-
-.location {
-  background-color: #0070BC;
+#location a:hover {
+    background: #00a651;
+    color: #ffffff;
 }
   
 h1 {
