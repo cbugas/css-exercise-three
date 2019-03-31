@@ -29,6 +29,20 @@ nav {
   width: 40%;
 }
 
+#location {
+    border: 4px solid #00a651;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 100px 20px 100px;
+    display: inline-block;
+}
+#location a {
+    background: #ffffff;
+    color: #00a651; 
+    text-align: center;
+}
+
+}
 #location a:hover {
     background: #00a651;
     color: #ffffff;
