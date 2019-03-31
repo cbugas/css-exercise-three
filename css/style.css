@@ -8,6 +8,11 @@ body {
   font-size: 10px;
 }
 
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .container {
   margin: 0 auto;
   width: 420px;
