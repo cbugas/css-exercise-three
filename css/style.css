@@ -30,17 +30,27 @@ nav {
 }
 
 
-$(document).ready(function() {
-    $('#location').hover(function() {
-        $(this).css('background-color', '#00a651').find('a').css({
-          backgroundColor: '#00a651',
-          color: '#FFFFFF'});        
-    }, function() {
-        $(this).css('background-color', '#FFFFFF').find('a').css({
-          backgroundColor: '#ffffff',
-          color: '#00a651'});        
-    });
-});
+#location {
+    border: 4px solid #00a651;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 100px 20px 100px;
+    display: inline-block;
+}
+#location a {
+  background: #ffffff;
+  color: #00a651; 
+  text-align: center;
+}
+#location:hover {
+  background: #00a651;
+  color: #ffffff;
+}
+
+#location:hover a {
+    background: #00a651;
+    color: #ffffff;
+}
   
 h1 {
   font-size: 15px;
