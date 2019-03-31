@@ -8,11 +8,6 @@ body {
   font-size: 10px;
 }
 
-h1 {
-  font-size: 15px;
-  font-weight: bold;
-}
-
 .container {
   margin: 0 auto;
   width: 420px;
@@ -40,3 +35,8 @@ a:hover { color:#0070BC; } /* mouse over */
   text-decoration: underline;
 }
   
+h1 {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
