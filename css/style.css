@@ -29,15 +29,18 @@ nav {
   width: 40%;
 }
 
-#location:hover {
-  background: #00a651;
-  color: #ffffff;
-}
 
-#location:hover a {
-    background: #00a651;
-    color: #ffffff;
-}
+$(document).ready(function() {
+    $('#location').hover(function() {
+        $(this).css('background-color', '#00a651').find('a').css({
+          backgroundColor: '#00a651',
+          color: '#FFFFFF'});        
+    }, function() {
+        $(this).css('background-color', '#FFFFFF').find('a').css({
+          backgroundColor: '#ffffff',
+          color: '#00a651'});        
+    });
+});
   
 h1 {
   font-size: 15px;
