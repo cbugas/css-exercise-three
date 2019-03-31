@@ -32,11 +32,15 @@ nav {
 a:hover { color:#0070BC; } /* mouse over */
 
 .location {
-  text-decoration: underline;
+  background-color: #0070BC;
 }
   
 h1 {
   font-size: 15px;
   font-weight: bold;
   text-decoration: none;
+}
+
+h3 {
+  text-decoration: underline;
 }
