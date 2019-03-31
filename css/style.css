@@ -34,6 +34,9 @@ nav {
   width: 40%;
 }
 
+a:hover { color:#0070BC; } /* mouse over */
+
 .location {
-  background-color: #ffffff
+  text-decoration: underline;
 }
+  
