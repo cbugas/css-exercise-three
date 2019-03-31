@@ -29,8 +29,12 @@ nav {
   width: 40%;
 }
 
+#location:hover {
+  background: #00a651;
+  color: #ffffff;
 }
-.location a:hover {
+
+#location:hover a {
     background: #00a651;
     color: #ffffff;
 }
